@@ -1,4 +1,4 @@
-body {background-color:light grey; 
+body {background-color: white; 
 
 font-family:sans-serif; }
 
@@ -13,6 +13,7 @@ h1 {
     
     font-size:1.2 em;
     color: green;
+    align-content:center;
 }
 
 ul {column-span=align-items:baseline; }
@@ -33,3 +34,7 @@ ul {column-span=align-items:baseline; }
 }
 
 .yield {font-weight:bold; font-style:italic; }
+
+hr {line-height:inherit;
+    color: purple;
+}
