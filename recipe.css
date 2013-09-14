@@ -1,0 +1,35 @@
+body {background-color:light grey; 
+
+font-family:sans-serif; }
+
+
+
+h1:before, h1:after {
+    size: 1.2em; content:" ♦ "
+    
+}
+
+h1 {
+    
+    font-size:1.2 em;
+    color: green;
+}
+
+ul {column-span=align-items:baseline; }
+
+.nobullets {list-style-type:none; }
+
+.amount {
+    width:25%; 
+    text-align:left;
+    display:inline-block;
+}
+
+.ingredient {
+    width: 60%;
+    font-style:italic;
+        text-align:left;
+    
+}
+
+.yield {font-weight:bold; font-style:italic; }
